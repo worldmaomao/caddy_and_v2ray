@@ -38,12 +38,8 @@ b)cat /proc/sys/kernel/random/uuid
 
 2.执行命令: docker-compose up -d
 
+## 附录
 
-
-
-
-
-
-
-
+ - [debian/ubuntu docker和docker-compose安装指南](https://blog.csdn.net/weixin_43944305/article/details/103618539)
+ - [centos 7 docker和docker-compose安装指南]( https://www.cnblogs.com/eternityz/p/13264980.html)
 
