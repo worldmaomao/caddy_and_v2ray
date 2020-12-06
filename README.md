@@ -1,4 +1,4 @@
-# caddy and v2fly
+# caddy and v2ray
 
 ## 特性
 1.支持websocket + v2ray
