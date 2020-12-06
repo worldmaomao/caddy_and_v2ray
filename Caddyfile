@@ -1,0 +1,10 @@
+www.xxoo.com {
+        reverse_proxy /stream/ v2ray:31812
+        root * /html
+        file_server
+}
+
+:8080 {
+        reverse_proxy /stream/ v2ray:31812
+}
+
