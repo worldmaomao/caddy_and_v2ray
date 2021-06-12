@@ -18,7 +18,8 @@
       "statsInboundDownlink": false
     }
   },
-  "inbounds": [{
+  "inbounds": [
+  {
     "port": 31812,
     "protocol": "vmess",
     "settings": {
@@ -38,7 +39,30 @@
          "path": "/stream/"
        }
     }
-  }],
+  },
+  
+  {
+	"port": 31813,
+	"protocol": "vless",
+	"settings": {
+			"clients": [{
+					"id": "e62b27f9-13ab-4e56-81ec-xxxxxxxxx",
+					"level": 0
+			}],
+			"decryption": "none"
+	},
+	"streamSettings": {
+			"network": "ws",
+			"security": "auto",
+			"wsSettings": {
+					"connectionReuse": true,
+					"path": "/talk/"
+			}
+	}
+  }
+
+  
+  ],
   "outbounds": [{
     "protocol": "freedom",
     "settings": {}

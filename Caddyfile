@@ -1,5 +1,11 @@
-www.xxoo.com {
+www.vmess.com {
         reverse_proxy /stream/ v2ray:31812
+        root * /html
+        file_server
+}
+
+www.vless.com {
+        reverse_proxy /talk/ v2ray:31813
         root * /html
         file_server
 }
